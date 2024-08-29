@@ -76,8 +76,8 @@ jobs:
         run: pnpm run generate
 #      - name: Upload artifact
 #        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./dist
+#        with:
+#          path: ./dist
 
   # Deployment job
   deploy:
