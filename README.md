@@ -1,75 +1,49 @@
-# Nuxt 3 Minimal Starter
-#### [my github](https://dlwui.github.io/nuxtstudy/)
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Element Plus with Nuxt 3 Minimal Starter
+
+<pre align="center">
+🏗 Working in Progress
+</pre>
+
+SSR Preview: <https://element-plus-nuxt.vercel.app/>
+
+SSG Preview: <https://nuxt-starter.element-plus.org/>
+
+We recommend to look at the [Nuxt 3 Docs](https://nuxt.com/) and [Element Plus Docs](https://element-plus.org/).
 
 ## Setup
 
-Make sure to install the dependencies:
+Make sure to install the dependencies
 
 ```bash
-# npm
-npm install
-
-# pnpm
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+## Development
 
-Start the development server on `http://localhost:3000`:
+Start the development server on `http://localhost:3000`
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+pnpm dev
 ```
+
+More info about [nuxt deployment](https://nuxt.com/docs/getting-started/deployment#presets).
+
+Run `npm run generate` to generate static html in `.output/public`.
 
 ## Production
 
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+pnpm build
 ```
 
-Locally preview production build:
+Checkout the [deployment documentation](https://nuxt.com/docs/getting-started/deployment).
 
-```bash
-# npm
-npm run preview
+## Deploy
 
-# pnpm
-pnpm run preview
+You need set `NITRO_PRESET=vercel-edge`, see [Nuxt on Vercel](https://vercel.com/docs/frameworks/nuxt#edge-functions).
 
-# yarn
-yarn preview
+## Ref
 
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- [vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3)
