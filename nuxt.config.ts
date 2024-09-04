@@ -1,6 +1,8 @@
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
+  _installedModules: undefined,
   app: {
+    baseURL:'/nuxtstudy/',
     // head
     head: {
       title: 'Element Plus + Nuxt 3',
@@ -63,5 +65,5 @@ export default defineNuxtConfig({
     icon: 'ElIcon',
     importStyle: 'scss',
     themes: ['dark'],
-  },
+  }
 })
